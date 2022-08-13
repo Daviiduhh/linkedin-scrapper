@@ -1,0 +1,13 @@
+{
+  "name": "krowdyscrapping",
+  "packageManager": "yarn@3.2.2",
+  "type": "module",
+  "scripts": {
+    "dev": "node config/esbuild.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.14.53",
+    "json-server": "^0.17.0",
+    "lowdb": "^3.0.0"
+  }
+}
